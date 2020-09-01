@@ -37,8 +37,14 @@ ul {
   flex: none;
 }
 
+.title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .button {
   padding: 10px 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-radius: 6px;
 }
 
 .todo-list {
@@ -50,10 +56,12 @@ ul {
 
 .todo-delete {
   margin: 10px;
+  align-content: center;
 }
 
 .todo-checkbox {
   margin: 10px;
+  border-radius: 6px;
 }
 
 .todo-container {
@@ -64,3 +72,13 @@ ul {
 .todo-container:first-of-type {
   border-top: 1px solid #333;
 }
+
+.todo-crossed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.flow-right {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+

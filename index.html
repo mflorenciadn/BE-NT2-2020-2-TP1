@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TODO App | 1er cambio </title>
+    <title>To Do App</title>
+    <link rel="icon" type="imagen" href= "imagen/lista-de-verificacion.png" />
     <link rel="stylesheet" type="text/css" href="./styles.css" />
   </head>
   <body>
     <div class="container center">
-      <h1 class="center title">TODO App</h1>
+      <h1 class="center title">To Do App</h1>
       <div class="flow-right controls">
-        <span>Item count: <span id="item-count">0</span></span>
-        <span>Unchecked count: <span id="unchecked-count">0</span></span>
+        <span>Tareas totales: <span id="item-count">0</span></span>
+        <span>Tareas pendientes: <span id="unchecked-count">0</span></span>
       </div>
-      <button class="button center" onClick="addTodo()">Agregar Tarea</button>
+      <button class="button center" onClick="addTodo()">Agregar nueva tarea</button>
       <ul id="todo-list" class="todo-list"></ul>
     </div>
     <script src="./script.js"></script>
